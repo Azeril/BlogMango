@@ -1,0 +1,22 @@
+---
+layout: post
+title: iTerm 2, Oh My Zsh and Janus - Pure awesomeness
+---
+Много се радвам на новата среда която си спретнах.
+
+* Terminal: ["iTerm2":http://www.iterm2.com/]
+* Shell: ["oh-my-zsh":https://github.com/robbyrussell/oh-my-zsh]
+* Editor: ["Janus (vim)":https://github.com/carlhuda/janus/]
+
+Инструкции за инсталацията има в линковете горе. Единственото което съм Tweak-вал за собствени нужди и вкус беше да пусна няколко плъгина на *oh-my-zsh*
+
+bc. % vim ~/.zshrc
+export ZSH_THEME="candy"
+plugins=(brew bundler cap gem git lol node npm osx rails3 ruby)
+
+и да сменя темата на vim
+
+bc. echo color xoria256  > ~/.vimrc.local
+
+За да са достъпни 256 цвята трябва да се промени едно поле от текущия профил *iTerm2* &raquo;	 !/images/keys/menusym-command.gif! *I* &raquo;	*Terminal* &raquo; *Terminal Emulator* &raquo; *xterm-256color*
+!/images/posts/xterm-256color.jpg!

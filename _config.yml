@@ -1,0 +1,16 @@
+baseurl: "mango.azeril.me"
+
+auto: true
+exclude: index.haml, application.scss
+pygments: true
+
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+permalink: none

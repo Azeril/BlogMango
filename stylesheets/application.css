@@ -1,0 +1,329 @@
+body {
+  background: url("../images/pattern.png") center top;
+  font-family: 'Droid Sans', arial, serif; }
+
+header {
+  padding: 15px 0;
+  width: 100%;
+  background: black; }
+  header a, header a:hover {
+    text-decoration: none; }
+  header #logo {
+    font-size: 20px; }
+    header #logo .first-name {
+      color: #ffffff; }
+    header #logo .last-name {
+      color: #74acd4; }
+    header #logo .slogan {
+      color: #969696;
+      font-size: 10px;
+      margin-top: -5px; }
+
+footer {
+  padding: 15px 0;
+  width: 100%;
+  background: black;
+  font-size: 12px;
+  font-family: 'Droid Sans', arial, serif; }
+  footer p {
+    color: #4F4F4F; }
+  footer h1 {
+    color: #DDD;
+    font-size: 18px; }
+  footer h2 {
+    color: #DDD; }
+  footer img {
+    text-aling: center; }
+  footer a {
+    color: #4F4F4F;
+    text-decoration: none; }
+  footer a:hover {
+    color: #DDD;
+    text-decoration: underline; }
+  footer .social a, footer .social a:hover {
+    text-decoration: none; }
+
+#content {
+  width: 100%;
+  padding: 15px 0;
+  background: white; }
+  #content h1 {
+    padding: 0 0 10px;
+    font: normal 22px "Lucida Grande", sans-serif; }
+  #content .post {
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0px;
+    border-bottom: 1px solid #EEE; }
+    #content .post h2 {
+      color: #303030;
+      font-size: 16px;
+      margin-bottom: 5px; }
+      #content .post h2 a, #content .post h2 a:hover {
+        color: #303030; }
+        #content .post h2 a:hover, #content .post h2 a:hover:hover {
+          color: #303030; }
+    #content .post p {
+      margin-bottom: 10px; }
+    #content .post img {
+      vertical-align: middle; }
+    #content .post a, #content .post a:hover {
+      color: #959595;
+      text-decoration: none; }
+      #content .post a:hover, #content .post a:hover:hover {
+        color: #959595;
+        text-decoration: underline; }
+    #content .post li ul, #content .post li ol {
+      margin: 0; }
+    #content .post ul, #content .post ol {
+      margin: 0 1.5em 1.5em 0;
+      padding-left: 1.5em; }
+    #content .post ul {
+      list-style-type: disc; }
+    #content .post ol {
+      list-style-type: decimal; }
+    #content .post dl {
+      margin: 0 0 1.5em 0; }
+    #content .post dl dt {
+      font-weight: bold; }
+    #content .post dd {
+      margin-left: 1.5em; }
+    #content .post blockquote {
+      margin: 1.5em;
+      color: #666;
+      font-style: italic; }
+    #content .post strong, #content .post dfn {
+      font-weight: bold; }
+    #content .post em, #content .post dfn {
+      font-style: italic; }
+    #content .post sup, #content .post sub {
+      line-height: 0; }
+    #content .post abbr, #content .post acronym {
+      border-bottom: 1px dotted #666; }
+    #content .post address {
+      margin: 0 0 1.5em;
+      font-style: italic; }
+    #content .post del {
+      color: #666; }
+    #content .post pre {
+      margin: 1.5em 0;
+      white-space: pre; }
+    #content .post pre, #content .post code, #content .post tt {
+      font: 1em 'andale mono', 'lucida console', monospace;
+      line-height: 1.5; }
+    #content .post code {
+      background-color: #f1f1f1; }
+    #content .post pre {
+      background-color: #f1f1f1;
+      border-bottom: 1px solid #d6d6d6;
+      border-top: 1px solid #d6d6d6;
+      padding-left: 20px; }
+    #content .post .highlight {
+      /* Comment */
+      /* Error */
+      /* Keyword */
+      /* Operator */
+      /* Comment.Multiline */
+      /* Comment.Preproc */
+      /* Comment.Single */
+      /* Comment.Special */
+      /* Generic.Deleted */
+      /* Generic.Deleted.Specific */
+      /* Generic.Emph */
+      /* Generic.Error */
+      /* Generic.Heading */
+      /* Generic.Inserted */
+      /* Generic.Inserted.Specific */
+      /* Generic.Output */
+      /* Generic.Prompt */
+      /* Generic.Strong */
+      /* Generic.Subheading */
+      /* Generic.Traceback */
+      /* Keyword.Constant */
+      /* Keyword.Declaration */
+      /* Keyword.Pseudo */
+      /* Keyword.Reserved */
+      /* Keyword.Type */
+      /* Literal.Number */
+      /* Literal.String */
+      /* Name.Attribute */
+      /* Name.Builtin */
+      /* Name.Class */
+      /* Name.Constant */
+      /* Name.Entity */
+      /* Name.Exception */
+      /* Name.Function */
+      /* Name.Namespace */
+      /* Name.Tag */
+      /* Name.Variable */
+      /* Operator.Word */
+      /* Text.Whitespace */
+      /* Literal.Number.Float */
+      /* Literal.Number.Hex */
+      /* Literal.Number.Integer */
+      /* Literal.Number.Oct */
+      /* Literal.String.Backtick */
+      /* Literal.String.Char */
+      /* Literal.String.Doc */
+      /* Literal.String.Double */
+      /* Literal.String.Escape */
+      /* Literal.String.Heredoc */
+      /* Literal.String.Interpol */
+      /* Literal.String.Other */
+      /* Literal.String.Regex */
+      /* Literal.String.Single */
+      /* Literal.String.Symbol */
+      /* Name.Builtin.Pseudo */
+      /* Name.Variable.Class */
+      /* Name.Variable.Global */
+      /* Name.Variable.Instance */
+      /* Literal.Number.Integer.Long */ }
+      #content .post .highlight .c {
+        color: #999988;
+        font-style: italic; }
+      #content .post .highlight .err {
+        color: #a61717;
+        background-color: #e3d2d2; }
+      #content .post .highlight .k {
+        font-weight: bold; }
+      #content .post .highlight .o {
+        font-weight: bold; }
+      #content .post .highlight .cm {
+        color: #999988;
+        font-style: italic; }
+      #content .post .highlight .cp {
+        color: #999999;
+        font-weight: bold; }
+      #content .post .highlight .c1 {
+        color: #999988;
+        font-style: italic; }
+      #content .post .highlight .cs {
+        color: #999999;
+        font-weight: bold;
+        font-style: italic; }
+      #content .post .highlight .gd {
+        color: #000000;
+        background-color: #ffdddd; }
+      #content .post .highlight .gd .x {
+        color: #000000;
+        background-color: #ffaaaa; }
+      #content .post .highlight .ge {
+        font-style: italic; }
+      #content .post .highlight .gr {
+        color: #aa0000; }
+      #content .post .highlight .gh {
+        color: #999999; }
+      #content .post .highlight .gi {
+        color: #000000;
+        background-color: #ddffdd; }
+      #content .post .highlight .gi .x {
+        color: #000000;
+        background-color: #aaffaa; }
+      #content .post .highlight .go {
+        color: #888888; }
+      #content .post .highlight .gp {
+        color: #555555; }
+      #content .post .highlight .gs {
+        font-weight: bold; }
+      #content .post .highlight .gu {
+        color: #aaaaaa; }
+      #content .post .highlight .gt {
+        color: #aa0000; }
+      #content .post .highlight .kc {
+        font-weight: bold; }
+      #content .post .highlight .kd {
+        font-weight: bold; }
+      #content .post .highlight .kp {
+        font-weight: bold; }
+      #content .post .highlight .kr {
+        font-weight: bold; }
+      #content .post .highlight .kt {
+        color: #445588;
+        font-weight: bold; }
+      #content .post .highlight .m {
+        color: #009999; }
+      #content .post .highlight .s {
+        color: #d14; }
+      #content .post .highlight .na {
+        color: #008080; }
+      #content .post .highlight .nb {
+        color: #0086B3; }
+      #content .post .highlight .nc {
+        color: #445588;
+        font-weight: bold; }
+      #content .post .highlight .no {
+        color: #008080; }
+      #content .post .highlight .ni {
+        color: #800080; }
+      #content .post .highlight .ne {
+        color: #990000;
+        font-weight: bold; }
+      #content .post .highlight .nf {
+        color: #990000;
+        font-weight: bold; }
+      #content .post .highlight .nn {
+        color: #555555; }
+      #content .post .highlight .nt {
+        color: #000080; }
+      #content .post .highlight .nv {
+        color: #008080; }
+      #content .post .highlight .ow {
+        font-weight: bold; }
+      #content .post .highlight .w {
+        color: #bbbbbb; }
+      #content .post .highlight .mf {
+        color: #009999; }
+      #content .post .highlight .mh {
+        color: #009999; }
+      #content .post .highlight .mi {
+        color: #009999; }
+      #content .post .highlight .mo {
+        color: #009999; }
+      #content .post .highlight .sb {
+        color: #d14; }
+      #content .post .highlight .sc {
+        color: #d14; }
+      #content .post .highlight .sd {
+        color: #d14; }
+      #content .post .highlight .s2 {
+        color: #d14; }
+      #content .post .highlight .se {
+        color: #d14; }
+      #content .post .highlight .sh {
+        color: #d14; }
+      #content .post .highlight .si {
+        color: #d14; }
+      #content .post .highlight .sx {
+        color: #d14; }
+      #content .post .highlight .sr {
+        color: #009926; }
+      #content .post .highlight .s1 {
+        color: #d14; }
+      #content .post .highlight .ss {
+        color: #990073; }
+      #content .post .highlight .bp {
+        color: #999999; }
+      #content .post .highlight .vc {
+        color: #008080; }
+      #content .post .highlight .vg {
+        color: #008080; }
+      #content .post .highlight .vi {
+        color: #008080; }
+      #content .post .highlight .il {
+        color: #009999; }
+    #content .post .date {
+      padding: 2px 4px;
+      background: #ffffff;
+      border: 1px solid #eeeeee;
+      border-bottom: 1px solid #ddd;
+      font-size: 9px;
+      color: #746858;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px; }
+    #content .post .readmore {
+      color: #74acd4;
+      font-size: 10px;
+      font-style: italic; }
+    #content .post .readmore:hover {
+      color: #C80B2F; }

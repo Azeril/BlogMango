@@ -1,0 +1,13 @@
+---
+layout: post
+title: Висока скорост при четене/запис с NTFS под MacOS
+---
+Често използвам USB Flash памети да си прехвърлям разни неща, и тъй като работя със Windows, Ubuntu и MacOS ми се налага да използвам NTFS за файлова система на флашките които ползвам. Варианта със FAT отпада поради невъзможността да се записват файлове по-големи от 4GB. За да се използва NTFS под MacOS на пазара са се наложили два основни продукта - *Tuxera* и другия е *Paragon*.
+
+От *Tuxera* предлагат два продукта, единият е безплатен ["NTFS-3G":http://www.tuxera.com/community/ntfs-3g-download/], и платен който е с по-висока производителност - ["Tuxera NTFS":http://www.tuxera.com/products/tuxera-ntfs-for-mac/]. И двата платени продукта са със сходна цена и предлагат почти еднаква производителност. На ["този линк":http://www.codykonior.com/tuxera-ntfs-vs-paragon-ntfs-mac-benchmarks/] може да се види бенч от ["Cody Konior":http://www.codykonior.com/] за трите продукта, като тестваната версия на ["Pargon NTFS for Mac":http://www.paragon-software.com/home/ntfs-mac/] е малко по-стара от текущата.
+
+Преминавайки през *NTGS-3G* останах много разочарован, скоростите са много ниски и е да кажем почти невъзможно да се копира голям файл (> 4GB) към NTFS дял. Предполагам ще върши някаква работа ако няма нужда от копиране на по-големи файлове. Не съм тествал платения продукт на Tuxera, но от *Paragon NTFS* останах много очарован - скорост равна на тази HFS(Hierarchical File System Plus).
+!/images/posts/pargon-file-copying.jpg!
+!/images/posts/pargon-ntfs-for-mac.jpg!
+
+PS: Работата с *NTFS-3G* Става малко по-поносима ако се включи "File system caching" ["http://d.pr/TQNT":http://d.pr/TQNT]

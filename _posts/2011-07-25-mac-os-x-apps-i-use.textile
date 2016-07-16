@@ -1,0 +1,18 @@
+--- 
+title: Списък с Mac OS X Приложенията които използвам
+layout: post
+---
+["Path Finder 5":http://www.cocoatech.com/] - Разширен файлов браузър с богати възможности
+!/images/posts/app-pathfinder.jpg!
+["Xee":http://wakaba.c3.cx/s/apps/xee] - Лек, Бърз и удобен image viewer
+!/images/posts/app-xee.jpg!
+["Springy":http://www.springyarchiver.com/] - Преглед на архиви без да е нужно разархивиране, както и други полезни функции
+["MPlayer OSX Extended":http://www.mplayerosx.ch/] - Тъй като VLC не ми е точно по вкуса, използвам MPlayer
+!/images/posts/app-mplayer.jpg!
+["TextMate":http://macromates.com/] - За къде без любимия редактор
+["AppCleaner":http://www.freemacsoft.net/] - Лек и удобен инструмент за изтриване на програмки заедно с junk папките им ;)
+["SmartGit":http://www.syntevo.com/smartgit/index.html] - Любимият ми Git GUI
+["iTerm 2":http://www.iterm2.com/] - По-добрият терминал за Mac OS. Още инфо ["тук":/2011/05/21/iterm2-zsh-janus.html]
+
+["Paragon NTFS for Mac":http://www.paragon-software.com/home/ntfs-mac/] - Повече информация ["тук":/2011/05/22/mac-os-ntfs.html]
+["BlueHarvest":http://www.zeroonetwenty.com/blueharvest4/] - Малка програмка която ми спестява триенето на Mac OS Junk-а (.DS_Store, .Trashes ...)
